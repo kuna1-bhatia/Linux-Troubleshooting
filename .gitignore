@@ -1,0 +1,31 @@
+# Logs
+*.log
+nohup.out
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Python (if added later)
+__pycache__/
+*.pyc
+*.pyo
+
+# Docker
+*.pid
+
+# Environment files
+.env
+
+# Archive files
+*.zip
+*.tar
+*.gz
