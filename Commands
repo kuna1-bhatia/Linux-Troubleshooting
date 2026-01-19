@@ -1,0 +1,156 @@
+kunal@DESKTOP-G4FKIEJ:~$ uptime
+kunal@DESKTOP-G4FKIEJ:~$ uptime
+kunal@DESKTOP-G4FKIEJ:~$ uptime
+ 14:56:03 up 10 min,  2 users,  load average: 0.01, 0.09, 0.09
+kunal@DESKTOP-G4FKIEJ:~$ top
+top - 14:56:55 up 10 min,  2 users,  load average: 0.00, 0.07, 0.08
+Tasks:  32 total,   1 running,  31 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.2 sy,  0.0 ni, 99.5 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   7607.2 total,   6534.1 free,    814.8 used,    414.7 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   6792.4 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   55 root      19  -1   66812  15176  14280 S   2.0   0.2   0:10.43 systemd-journal
+    1 root      20   0   21796  12112   8912 S   0.0   0.2   0:01.93 systemd
+    2 root      20   0    3120   1792   1792 S   0.0   0.0   0:00.03 init-systemd(Ub
+    6 root      20   0    3136   1792   1792 S   0.0   0.0   0:00.01 init
+  103 root      20   0   25136   5760   4864 S   0.0   0.1   0:00.72 systemd-udevd
+  174 systemd+  20   0   21452  12416  10368 S   0.0   0.2   0:00.31 systemd-resolve
+  178 systemd+  20   0   91020   7680   6784 S   0.0   0.1   0:00.34 systemd-timesyn
+  187 root      20   0    4236   2432   2304 S   0.0   0.0   0:00.01 cron
+  188 message+  20   0    9532   4608   4224 S   0.0   0.1   0:00.50 dbus-daemon
+  202 root      20   0   18148   8192   7424 S   0.0   0.1   0:00.29 systemd-logind
+  208 root      20   0 1756096  11904  10240 S   0.0   0.2   0:00.20 wsl-pro-service
+  228 root      20   0    3160   1920   1792 S   0.0   0.0   0:00.01 agetty
+  238 syslog    20   0  222508   5248   4224 S   0.0   0.1   0:00.17 rsyslogd
+  246 root      20   0    3116   1792   1664 S   0.0   0.0   0:00.01 agetty
+  257 root      20   0  107004  21760  12928 S   0.0   0.3   0:00.20 unattended-upgr
+  378 root      20   0    3128    768    768 S   0.0   0.0   0:00.00 SessionLeader
+  379 root      20   0    3144   1152   1024 S   0.0   0.0   0:00.10 Relay(380)
+  380 kunal     20   0    6204   5248   3584 S   0.0   0.1   0:00.09 bash
+  381 root      20   0    6688   4224   3584 S   0.0   0.1   0:00.02 login
+  427 kunal     20   0   20112  11008   9216 S   0.0   0.1   0:00.29 systemd
+  428 kunal     20   0   21148   3520   1792 S   0.0   0.0   0:00.00 (sd-pam)
+  453 kunal     20   0    6072   4992   3456 S   0.0   0.1   0:00.03 bash
+  565 root      20   0    3136    900    768 S   0.0   0.0   0:00.02 SessionLeader
+kunal@DESKTOP-G4FKIEJ:~$ free
+               total        used        free      shared  buff/cache   available
+Mem:         7789776      835280     6656304        4640      458752     6954496
+Swap:        2097152           0     2097152
+kunal@DESKTOP-G4FKIEJ:~$ free -h
+               total        used        free      shared  buff/cache   available
+Mem:           7.4Gi       815Mi       6.3Gi       4.5Mi       452Mi       6.6Gi
+Swap:          2.0Gi          0B       2.0Gi
+kunal@DESKTOP-G4FKIEJ:~$ df
+Filesystem                                1K-blocks      Used  Available Use% Mounted on
+none                                        3894888         0    3894888   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none                                        3894888         4    3894884   1% /mnt/wsl
+drivers                                   498774012 208035164  290738848  42% /usr/lib/wsl/drivers
+/dev/sde                                 1055762868   1887932 1000171464   1% /
+none                                        3894888        72    3894816   1% /mnt/wslg
+none                                        3894888         0    3894888   0% /usr/lib/wsl/lib
+rootfs                                      3889848      2720    3887128   1% /init
+none                                        3894888       560    3894328   1% /run
+none                                        3894888         0    3894888   0% /run/lock
+none                                        3894888         0    3894888   0% /run/shm
+none                                        3894888        96    3894792   1% /mnt/wslg/versions.txt
+none                                        3894888        96    3894792   1% /mnt/wslg/doc
+C:\                                       498774012 208035164  290738848  42% /mnt/c
+tmpfs                                        778976        20     778956   1% /run/user/1000
+none                                        3894888       592    3894296   1% /mnt/wsl/docker-desktop/shared-sockets/host-services
+/dev/sdd                                     132401     67136      54955  55% /mnt/wsl/docker-desktop/docker-desktop-user-distro
+/dev/loop0                                   752748    752748          0 100% /mnt/wsl/docker-desktop/cli-tools
+tmpfs                                        778976        20     778956   1% /run/user/0
+C:\Program Files\Docker\Docker\resources  498774012 208035164  290738848  42% /Docker/host
+kunal@DESKTOP-G4FKIEJ:~$ df -h
+Filesystem                                Size  Used Avail Use% Mounted on
+none                                      3.8G     0  3.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none                                      3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers                                   476G  199G  278G  42% /usr/lib/wsl/drivers
+/dev/sde                                 1007G  1.9G  954G   1% /
+none                                      3.8G   72K  3.8G   1% /mnt/wslg
+none                                      3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs                                    3.8G  2.7M  3.8G   1% /init
+none                                      3.8G  560K  3.8G   1% /run
+none                                      3.8G     0  3.8G   0% /run/lock
+none                                      3.8G     0  3.8G   0% /run/shm
+none                                      3.8G   96K  3.8G   1% /mnt/wslg/versions.txt
+none                                      3.8G   96K  3.8G   1% /mnt/wslg/doc
+C:\                                       476G  199G  278G  42% /mnt/c
+tmpfs                                     761M   20K  761M   1% /run/user/1000
+none                                      3.8G  592K  3.8G   1% /mnt/wsl/docker-desktop/shared-sockets/host-services
+/dev/sdd                                  130M   66M   54M  55% /mnt/wsl/docker-desktop/docker-desktop-user-distro
+/dev/loop0                                736M  736M     0 100% /mnt/wsl/docker-desktop/cli-tools
+tmpfs                                     761M   20K  761M   1% /run/user/0
+C:\Program Files\Docker\Docker\resources  476G  199G  278G  42% /Docker/host
+kunal@DESKTOP-G4FKIEJ:~$ ps
+  PID TTY          TIME CMD
+ 1252 pts/5    00:00:00 bash
+ 1327 pts/5    00:00:00 ps
+kunal@DESKTOP-G4FKIEJ:~$ ps -aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.2  0.1  21796 12112 ?        Ss   14:46   0:02 /sbin/init
+root         2  0.0  0.0   3120  1792 ?        Sl   14:46   0:00 /init
+root         6  0.0  0.0   3136  1792 ?        Sl   14:46   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --
+root        55  1.5  0.1  58620 15008 ?        D<s  14:46   0:11 /usr/lib/systemd/systemd-journald
+root       103  0.1  0.0  25136  5760 ?        Ss   14:46   0:00 /usr/lib/systemd/systemd-udevd
+systemd+   174  0.0  0.1  21452 12416 ?        Ss   14:46   0:00 /usr/lib/systemd/systemd-resolved
+systemd+   178  0.0  0.0  91020  7680 ?        Ssl  14:46   0:00 /usr/lib/systemd/systemd-timesyncd
+root       187  0.0  0.0   4236  2432 ?        Ss   14:46   0:00 /usr/sbin/cron -f -P
+message+   188  0.0  0.0   9532  4608 ?        Ss   14:46   0:00 @dbus-daemon --system --address=systemd: --nofork --nop
+root       202  0.0  0.1  18148  8192 ?        Ss   14:46   0:00 /usr/lib/systemd/systemd-logind
+root       208  0.0  0.1 1756096 11904 ?       Ssl  14:46   0:00 /usr/libexec/wsl-pro-service -vv
+root       228  0.0  0.0   3160  1920 ?        Ss   14:46   0:00 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200
+syslog     238  0.0  0.0 222508  5248 ?        Ssl  14:46   0:00 /usr/sbin/rsyslogd -n -iNONE
+root       246  0.0  0.0   3116  1792 tty1     Ss+  14:46   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root       257  0.0  0.2 107004 21760 ?        Ssl  14:46   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unatten
+root       381  0.0  0.0   6688  4224 pts/1    Ss   14:46   0:00 /bin/login -f
+kunal      427  0.0  0.1  20112 11008 ?        Ss   14:46   0:00 /usr/lib/systemd/systemd --user
+kunal      428  0.0  0.0  21148  3520 ?        S    14:46   0:00 (sd-pam)
+kunal      453  0.0  0.0   6072  4992 pts/1    S+   14:46   0:00 -bash
+root       565  0.0  0.0   3136   900 ?        Ss   14:46   0:00 /init
+root       567  0.0  0.0   3144  1160 ?        S    14:46   0:00 /init
+kunal      570  0.0  0.0   2800  1536 pts/3    Ss+  14:46   0:00 sh
+root       580  0.0  0.0   6664  4096 pts/4    Ss   14:46   0:00 /bin/login -f
+root       614  0.0  0.1  20224 11008 ?        Ss   14:46   0:00 /usr/lib/systemd/systemd --user
+root       615  0.0  0.0  21156  3380 ?        S    14:46   0:00 (sd-pam)
+root       638  0.0  0.0   6072  4992 pts/4    S+   14:46   0:00 -bash
+root       762  0.0  0.0   3136  1164 ?        S    14:46   0:00 /init
+root       763  0.0  0.2 1250244 23188 pts/2   Ssl+ 14:46   0:00 /mnt/wsl/docker-desktop/docker-desktop-user-distro prox
+root      1247  0.0  0.0   3128   900 ?        Ss   14:56   0:00 /init
+root      1248  0.0  0.0   3144  1032 ?        S    14:56   0:00 /init
+kunal     1252  0.0  0.0   6204  5120 pts/5    Ss   14:56   0:00 -bash
+root      1330  0.0  0.0  25140  3388 ?        S    14:58   0:00 (udev-worker)
+root      1331  0.0  0.0  25140  3388 ?        S    14:58   0:00 (udev-worker)
+kunal     1333  100  0.0   9580  4864 pts/5    R+   14:58   0:00 ps -aux
+kunal@DESKTOP-G4FKIEJ:~$ kill
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+kunal@DESKTOP-G4FKIEJ:~$ kill pid
+-bash: kill: pid: arguments must be process or job IDs
+kunal@DESKTOP-G4FKIEJ:~$ kill PID
+-bash: kill: PID: arguments must be process or job IDs
+kunal@DESKTOP-G4FKIEJ:~$ kill -9 PID
+-bash: kill: PID: arguments must be process or job IDs
+kunal@DESKTOP-G4FKIEJ:~$ ls
+data.tar.gz  devops  home  linux  softlink-file
+kunal@DESKTOP-G4FKIEJ:~$ cd devops/
+kunal@DESKTOP-G4FKIEJ:~/devops$ ls
+devopsfile.txt
+kunal@DESKTOP-G4FKIEJ:~/devops$ fuser devopsfile.txt
+kunal@DESKTOP-G4FKIEJ:~/devops$ fuser Dockerfile
+Specified filename Dockerfile does not exist.
+kunal@DESKTOP-G4FKIEJ:~/devops$ nohup
+nohup: missing operand
+Try 'nohup --help' for more information.
+kunal@DESKTOP-G4FKIEJ:~/devops$ nohup.out
+nohup.out: command not found
+kunal@DESKTOP-G4FKIEJ:~/devops$ uname -a
+Linux DESKTOP-G4FKIEJ 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+kunal@DESKTOP-G4FKIEJ:~/devops$ date
+Mon Jan 19 15:01:29 UTC 2026
+kunal@DESKTOP-G4FKIEJ:~/devops$ whoami
+kunal
+kunal@DESKTOP-G4FKIEJ:~/devops$ tail -f logfile
+tail: cannot open 'logfile' for reading: No such file or directory
+tail: no files remaining
+kunal@DESKTOP-G4FKIEJ:~/devops$ tail -f devopsfile.txt
